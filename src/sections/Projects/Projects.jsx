@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./ProjectStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png"
-import hipsster from '../../assets/hipsster.png'
-import fitLift from '../../assets/fitlift.png'
+import roboscape from "../../assets/roboscape-logo.png";
+import bluesky from "../../assets/Blue-Sky-Logo.jpg"
+import pokedex from '../../assets/pokedex-icon.png'
 import ProjectCard from "../../common/ProjectCard";
 
 function projects() {
@@ -12,20 +11,20 @@ function projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={bluesky}
           link={"https://blueskyfitnessandhealthcoaching.vercel.app/"}
-          h3="BlueSky Fitness & Health Coaching"
+          h3="BlueSky Fitness"
           p="Typescript Fitness Website"
         />
         <ProjectCard
-          src={freshBurger}
+          src={roboscape}
           link={"https://roboscape.vercel.app/"}
           h3="RoboScape"
-          p="Javascript Metroidevania"
+          p="Javascript Metroidvania"
         />
         <ProjectCard
-          src={hipsster}
-          link={"https://github.com/matthew-sawatzky"}
+          src={pokedex}
+          link={"https://msawatzky-react-pokedex.vercel.app/"}
           h3="Pokedex"
           p="Typescript Pokedex Website"
         />
