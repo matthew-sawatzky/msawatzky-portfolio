@@ -13,27 +13,21 @@ function projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link={"https://github.com/matthew-sawatzky"}
-          h3="Viberr"
-          p="Streaming App"
+          link={"https://blueskyfitnessandhealthcoaching.vercel.app/"}
+          h3="BlueSky Fitness & Health Coaching"
+          p="Typescript Fitness Website"
         />
         <ProjectCard
           src={freshBurger}
-          link={"https://github.com/matthew-sawatzky"}
-          h3="Fresh Burger"
-          p="Burger Restaurant"
+          link={"https://roboscape.vercel.app/"}
+          h3="RoboScape"
+          p="Javascript Metroidevania"
         />
         <ProjectCard
           src={hipsster}
           link={"https://github.com/matthew-sawatzky"}
-          h3="Hipsster"
-          p="Glasses Store"
-        />
-        <ProjectCard
-          src={fitLift}
-          link={"https://github.com/matthew-sawatzky"}
-          h3="FitLift"
-          p="Fitness App"
+          h3="Pokedex"
+          p="Typescript Pokedex Website"
         />
       </div>
     </section>
