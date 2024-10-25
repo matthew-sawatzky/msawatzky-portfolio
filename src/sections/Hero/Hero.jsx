@@ -12,9 +12,9 @@ import { useTheme } from "../../common/ThemeContext";
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === 'light' ? sun : moon;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const themeIcon = theme === "light" ? sun : moon;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -42,7 +42,16 @@ function Hero() {
             <img src={linkedinIcon} alt="LinkedIn Icon" />
           </a>
         </span>
-        <p className={styles.description}>Description</p>
+        <p className={styles.description}>
+          Junior Full Stack Web Developer with experience in programming
+          visually pleasing and effective websites. Proficient in a diverse
+          range of languages for both front-end and back-end development.
+          Credited for a rapid task comprehension and adeptness at learning new
+          concepts quickly. Utilizing strong communication skills based on
+          previous experience in project collaboration and management. Eager to
+          apply knowledge and skills to contribute to a new team while
+          continuing to further industry knowledge and experience.{" "}
+        </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
