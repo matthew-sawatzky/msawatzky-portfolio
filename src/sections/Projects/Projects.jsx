@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./ProjectStyles.module.css";
 import roboscape from "../../assets/roboscape-logo.png";
-import bluesky from "../../assets/Blue-Sky-Logo.jpg"
-import pokedex from '../../assets/pokedex-icon.png'
+import bluesky from "../../assets/Blue-Sky-Logo.jpg";
+import pokedex from "../../assets/pokedex-icon.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function projects() {
