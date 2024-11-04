@@ -43,9 +43,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Junior Full Stack Web Developer with experience in programming
-          visually pleasing and effective websites. Proficient in a diverse
-          range of languages for both front-end and back-end development.{" "}
+          Welcome to my portfolio! I am a Full Stack Web Developer skilled
+           in a variety of front-end and back-end technologies to make you 
+           the best website possible! {" "}
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
