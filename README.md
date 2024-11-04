@@ -1,6 +1,9 @@
 # Matthew Sawatzky's React Portfolio
 
-This is the source code for my personal portfolio website built with React and Vite. The website showcases my projects, skills, and provides a way to contact me.
+Link to Portfolio: https://matthewsawatzky-portfolio.vercel.app/
+
+This is the source code for my personal portfolio website built with React and Vite. The website showcases 
+my projects, skills, and provides a way to contact me.
 
 ## Table of Contents
 
