@@ -6,7 +6,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/cv.pdf";
+import resume from "../../assets/matthewsawatzky_resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -43,11 +43,11 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Welcome to my portfolio! I am a Full Stack Web Developer skilled
-           in a variety of front-end and back-end technologies to make you 
-           the best website possible! {" "}
+          Welcome to my portfolio! I am a Full Stack Web Developer skilled in a
+          variety of front-end and back-end technologies to make you the best
+          website possible!{" "}
         </p>
-        <a href={CV} download>
+        <a href={resume} download>
           <button className="hover">Resume</button>
         </a>
       </div>
