@@ -29,6 +29,8 @@ function projects() {
           p="Typescript Pokedex Website"
         />
       </div>
+      <br />
+      <br />
     </section>
   );
 }

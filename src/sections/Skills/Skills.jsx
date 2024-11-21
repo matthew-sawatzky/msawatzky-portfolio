@@ -37,6 +37,8 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Storybook" />
         <SkillList src={checkMarkIcon} skill="Postman" />
       </div>
+      <br />
+      <br />
     </section>
   );
 }
