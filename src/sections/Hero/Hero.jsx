@@ -1,5 +1,4 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/cartoon-profile-image.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import githubLight from "../../assets/github-light.svg";
@@ -7,6 +6,7 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import resume from "../../assets/matthewsawatzky_resume.pdf";
+import heroImg from "../../assets/profile_picture.png";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -44,8 +44,7 @@ function Hero() {
         </span>
         <p className={styles.description}>
           Welcome to my portfolio! I am a Full Stack Web Developer skilled in a
-          variety of front-end and back-end technologies to make you the best
-          website possible!{" "}
+          variety of front-end and back-end technologies to help businesses build the best website possible.{" "}
         </p>
         <a href={resume} download>
           <button className="hover">Resume</button>

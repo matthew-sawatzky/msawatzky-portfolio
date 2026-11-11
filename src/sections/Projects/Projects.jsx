@@ -18,6 +18,12 @@ function projects() {
           p="Typescript Fitness Website"
         />
         <ProjectCard
+          src={woofs}
+          link={"https://woofs-n-wags.vercel.app/"}
+          h3="Woofs n Wags"
+          p="Pet services website"
+        />
+        <ProjectCard
           src={roboscape}
           link={"https://roboscape.vercel.app/"}
           h3="RoboScape"
@@ -28,12 +34,6 @@ function projects() {
           link={"https://msawatzky-react-pokedex.vercel.app/"}
           h3="Pokedex"
           p="Typescript Pokedex Website"
-        />
-        <ProjectCard
-          src={woofs}
-          link={"https://woofs-n-wags.vercel.app/"}
-          h3="Woofs n Wags"
-          p="Pet services website"
         />
       </div>
       <br />
