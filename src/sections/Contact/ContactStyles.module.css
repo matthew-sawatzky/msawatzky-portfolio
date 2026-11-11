@@ -29,6 +29,14 @@ input, textarea{
     justify-self: center;
     background-color: var(--background-color);
     color: var(--form-text-color);
+    transition: border-color 280ms ease, box-shadow 280ms ease;
+}
+
+input:not([type='submit']):focus,
+textarea:focus{
+    border-color: var(--btn-color);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--btn-color) 18%, transparent);
+    outline: none;
 }
 
 ::placeholder{
@@ -45,16 +53,16 @@ input[type='submit']{
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms erase-in-out;
+    transition: transform 280ms ease, box-shadow 280ms ease;
     margin: auto;
 }
 
 input[type='submit']:hover{
-    transform: scale(1.05);
+    transform: translateY(-2px);
 }
 
 input[type='submit']:active{
-    transform: translateY(2px);
+    transform: translateY(1px);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
