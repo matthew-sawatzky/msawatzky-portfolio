@@ -42,6 +42,7 @@
     .projectsContainer{
         display: grid;
         grid-template-columns: repeat(2, 250px);
+        align-items: start;
         justify-content: center;
         justify-items: center;
         padding: 0 30px;
